@@ -1,7 +1,6 @@
 services:
   express-app:
-    build: ./express-app
-    image: express-app:latest
+    image: jqrsound/express-app:latest
     container_name: express-app
     restart: unless-stopped
     ports:
